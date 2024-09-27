@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Форма для заполнения</title>
+    </head>
+
+    <body>
+        <p><a href="my-site.html">В меню</a></p>
+        <form action="submit_form.php" method="POST" enctype="multipart/form-data">
+            <table cellspacing="20">
+                <tr>
+                    <td align="right">Имя</td>
+                    <td height="50"><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td align="right">Фамилия</td>
+                    <td height="50"><input type="text" id="lastname" name="lastname"></td>
+                </tr>
+                <tr>
+                    <td align="right">E-mail</td>
+                    <td height="50"><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td align="right">Индекс</td>
+                    <td height="50"><input type="text" id="index" name="index"></td>
+                </tr>
+                <tr>
+                    <td align="right">Телефон</td>
+                    <td height="50"><input type="tel" id="phone" name="phone"></td>
+                </tr>
+                <tr>
+                    <td align="right">О себе</td>
+                    <td height="50"><input type="text" id="about-myself" name="about_myself"></td>
+                </tr>
+                <tr>
+                    <td align="right">Дата рождения</td>
+                    <td height="50"><input type="date" id="birthday" name="birthday"></td>
+                </tr>
+                <tr>
+                    <td align="right">Загрузить фото</td>
+                    <td height="50"><input type="file" id="photo" name="photo"></td>
+                </tr>
+                <tr>
+                    <td align="right">Очистить форму</td>
+                    <td height="50"><input type="reset" id="reset"></td>
+                </tr>
+                <tr>
+                    <td align="right">Отправить форму</td>
+                    <td height="50"><input type="submit" id="send"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
