@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Макет верстки</title>
+    </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+        .container
+        {
+            /* width: 1000px;
+            height: 900px; */
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .header
+        {
+            /* width: 1000px; */
+            height: 200px;
+            /* background: darkgray; */
+            background-image: url("../img-data/note.jpg");
+            background-size: cover;
+            
+        }
+        .left
+        {
+            width: 15%;
+            height: 1000px;
+            /* background-color: #78DBE2; */
+            background-repeat: repeat;
+            background-image: url("../img-data/jasmin.jpg");
+            float: left;
+            border: 15px;
+        }
+        .center
+        {
+            height: 1000px;
+            width: 70%;
+           
+            float: left;
+        }
+        .right
+        {
+            width: 15%;
+            height: 1000px;
+            background-repeat: repeat;
+            background-image: url("../img-data/jasmin.jpg");
+            background-color: chocolate;
+            float: left;
+        }
+        .cellar
+        {
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            float: left;
+            color:white;
+            background-image: url("../img-data/note.jpg");
+            background-size: cover;
+        }
+        .content
+        {
+            /* padding: 20px; */
+            font-family: "Comfortaa", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+
+        .title_cool
+        {
+            text-align: center;
+            padding: 20px;
+            font-size: 100px;
+            color: rgb(66, 58, 220);
+
+            font-family: "Comfortaa", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+
+        table
+        {
+            margin-top: 3%;
+            margin-left: 6%;
+        }
+
+        .navigation
+        {
+            font-size: 15px;
+            background-color: white;
+        }
+
+        .navigation-head
+        {
+            padding: 20px;
+            font-size: 15px;
+            background-color: white;
+        }
+        
+    </style>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 class="content, title_cool">Плеер</h2>
+            </div>
+            <div class="left">
+                <h3 class="content, navigation-head">Навигация</h3>
+                <p class="content">
+                    <li class="navigation"><a href ="Home_Page.html">Моя страница</a></li>
+                    <li class="navigation"><a href ="new-photo-album.html">Фотоальбом свинок</a></li>
+                    <li class="navigation"><a href = "player.html">Плеер</a></li>
+                    <li class="navigation"><a href = "new-form.html">Форма</a></li>
+                </p>
+            </div>
+                <div class="center">
+                    <table>
+                        <tr>
+                            <td>
+                            <div align = "center">
+                                <video width="420" height="640" controls>
+                                    <source src="../video/happypig.mp4">
+                                </video>
+                                <h2 class="content">Свинка счастливая</h2>
+                                <p class="content">Ей нравится такой уход!</p>
+                            </div>
+                            </td>
+
+                            <td>
+                            <div align = "center">
+                                <iframe width="420" height="640" 
+                                src="https://rutube.ru/play/embed/89380a0239961b1de633ddc53e72cf84/"
+                                frameBorder="0" allow="clipboard-write; autoplay" 
+                                webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+                                </iframe>
+                                <h2 class="content">Свинку моют</h2>
+                                <p class="content">Она балдеет</p>
+                            </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <div align = "center">
+                                    <video width="420" height="100" controls>
+                                        <source src="../video/medusa.mp3">
+                                    </video>
+                                    <h2 class="content">Странная композция</h2>
+                                    <p class="content">Я такое не слушаю</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            <div class="right">
+               
+            </div>
+            <div class="cellar">
+                <h2 class="content"></h2>
+            </div>
+        </div>
+    </body>
+</html>

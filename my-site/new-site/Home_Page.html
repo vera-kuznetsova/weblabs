@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Макет верстки</title>
+    </head>
+
+    <style>
+        .container
+        {
+            /* width: 1000px;
+            height: 900px; */
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .header
+        {
+            /* width: 1000px; */
+            height: 200px;
+            background: darkgray;
+            
+        }
+        .left
+        {
+            width: 15%;
+            height: 700px;
+            background-color: #78DBE2;
+            float: left;
+        }
+        .center
+        {
+            height: 700px;
+            width: 70%;
+            /* background-image: linear-gradient(#b9dee0, #d429e1); */
+            background-image: "img-data/pattern.jpg";
+            float: left;
+        }
+        .right
+        {
+            width: 15%;
+            height: 700px;
+            background-repeat: repeat;
+            background-image: url("../img-data/jasmin.jpg");
+            background-color: chocolate;
+            float: left;
+        }
+        .cellar
+        {
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            float: left;
+            color:white;
+        }
+        .content
+        {
+            padding: 20px;
+        }
+        
+    </style>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 class="content">Шапка сайта</h2>
+            </div>
+            <div class="left">
+                <h3 class="content">Поле навигации</h3>
+                <p class="content">
+                    <li><a href ="Home_Page.html">Моя страница</a></li>
+                    <li><a href ="new-photo-album.html">Фотоальбом свинок</a></li>
+                    <li><a href = "player.html">Плеер</a></li>
+                    <li><a href = "new-form.html">Форма</a></li>
+                </p>
+            </div>
+            <div class="center">
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Оглавление</h3>
+                            <menu>
+                            <li><a href = "#about-me">Обо мне</a></li>
+                            <li><a href = "#email">Почта</a></li>
+                            <li><a href = "#social">Мой ВК</a></li>
+                            <li><a href = "#about-university">О ТГПУ</a></li>
+                            <li><a href = "#my-group">Номер моей группы</a></li>
+                            <li><a href = "#my-future-job">Ради чего учусь</a></li>
+                            <li><a href = "#my-hobby">Мои увлечения</a></li>
+                            <li><a href = "#my-book">Читательская рекомендация</a></li>
+                            </menu>
+                        </td>
+                        <td>
+                            <img src="../img-data/my-photo.jpg" height="400" width="570">
+                        </td>
+                    </tr>
+                </table>
+                <ul>
+                    <li><a name = "about-me">Этот сайт принадлежит <big>Горловой М.В</big>.</a></li>
+              
+              
+                    <li><a name = "email">Email: <i>gorlova71.06@mail.ru</i></a></li>
+              
+                    <li><a name = "social">Ссылка: <i>https://vk.com/scatmanwepepapu</i></a></li>
+              
+                    <li><a name = "about-university">Университет Льва Толстого - вуз, в котором <big>всё для тебя</big>. 
+                      Перед абитуриентами открывается выбор для реализации себя не только в учебе, 
+                      <mark>но и в науке, творчестве, спорте и волонтерской деятельности</mark>.
+                    </a>
+                    </li>
+              
+                    <li><a name = "my-group">Моя группа: <strong>1520331</strong></a></li>
+              
+                    <li><a name = "my-future-job">Моя будущая профессия - 
+                    <sub>Т</sub><sup>е</sup><sub>с</sub><sup>т</sup><sub>и</sub><sup>р</sup>
+                    <sub>о</sub><sup>в</sup><sub>щ</sub><sup>и</sup><sub>к</sub>
+                    </a>
+                    </li>
+              
+                    <li><a name = "my-hobby">Мое увлечение - <del>собаки</del> уход за собаками <small>и котами</small>.</a></li>
+              
+                    <li><a name = "my-book">«Дьявол среди людей» 
+                    <i>(название дано публикаторами, авторский вариант в рукописи: «Дьявол между людей»)</i>
+                     — фантастическая повесть писателя <strong>С. Ярославцева</strong> 
+                     <small>(псевдоним Аркадия Стругацкого)</small>, 
+                     написанная в 1991 году и опубликованная в 1993-м. 
+                     <m>Последнее произведение Аркадия Стругацкого.</m>
+                    </a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="right">
+                <!-- <h2 class="content">Поле для другой информации</h2> -->
+                <img src="img-data/pattern.jpg" height="700px">
+            </div>
+            <div class="cellar">
+                <h2 class="content">Подвал</h2>
+            </div>
+        </div>
+    </body>
+</html>
